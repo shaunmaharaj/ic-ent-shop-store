@@ -5,6 +5,7 @@ interface Props {
 interface HomeAttributes {
   hero_title: string;
   hero_description: string;
+  hero_image: string;
 }
 const HomePage: NextPage<Props> = ({ content }) => {
   const { attributes } = content;
