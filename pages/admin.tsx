@@ -1,3 +1,4 @@
+// @ts-nocheck
 import dynamic from 'next/dynamic';
 import config from '../cms/config';
 const CMS = dynamic(
