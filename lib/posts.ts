@@ -43,7 +43,7 @@ export function fetchPostContent(): PostContent[] {
       };
       matterData.fullPath = fullPath;
 
-      const slug = fileName.replace(/\.mdx$/, "");
+      const slug = fileName.replace(/\.md$/, "");
 
       // Validate slug string
       if (matterData.slug !== slug) {
