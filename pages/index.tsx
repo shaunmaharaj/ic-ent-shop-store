@@ -12,6 +12,7 @@ return (
     <>
       <h1>{attributes.hero_title}</h1>
       <p>{attributes.hero_description}</p>
+      <img src={attributes.hero_image} alt='hero image' />
     </>
   );
 };
