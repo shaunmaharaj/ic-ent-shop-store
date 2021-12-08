@@ -14,3 +14,30 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#content {
+  max-width: 1306px;
+  margin: auto;
+}
+
+.heroBanner {
+  margin: 32px auto;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 100%;
+  max-width: 1306px;
+}
+
+.heroBanner > div > div {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+  border-radius: 8px;
+}
+.heroBanner_image {
+  width: 1242px;
+  height: 258px;
+}
