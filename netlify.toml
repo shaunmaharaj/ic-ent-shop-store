@@ -13,3 +13,15 @@ package = "@netlify/plugin-nextjs"
   to = "https://uat-gar-platform-master-web.unataops.com/api/v2"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/frontend-config.js"
+  to = "https://uat-gar-platform-master-web.unataops.com/frontend-config.js"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/env-config.js"
+  to = "https://uat-gar-platform-master-web.unataops.com/env-config.js"
+  status = 200
+  force = true
