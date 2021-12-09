@@ -31,15 +31,13 @@ const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, seco
       <Head>
         <script type="text/javascript" src="https://shaunmaharaj.github.io/ic-ent-shop-store/widgets.js"></script>
       </Head>
-      <p>Header Placement</p>
-      <unata-legacy-nav-view>
-        <div hidden>TODO</div>
-      </unata-legacy-nav-view>
+      {/* Header Placement */}
+      <unata-legacy-nav-view></unata-legacy-nav-view>
       <unata-legacy-side-cart-view></unata-legacy-side-cart-view>
       <unata-legacy-search-view></unata-legacy-search-view>
       <unata-legacy-checkout-view></unata-legacy-checkout-view>
       {/* <img src={attributes.hero_image} alt='hero image' /> */}
-      <p>Content Placement</p>
+      {/* Content Placement */}
       <div id="content">
         <div className="heroBanner">
           <div>
@@ -82,10 +80,8 @@ const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, seco
         {/* <unata-shaun>hehehe</unata-shaun> */}
         {/* <div dangerouslySetInnerHTML={createMarkup()} />; */}
       </div >
-      <p>Footer Placement</p>
-      <unata-legacy-footer-view>
-        <li hidden><a>TODO</a></li>
-      </unata-legacy-footer-view>
+      {/* Footer Placement */}
+      <unata-legacy-footer-view></unata-legacy-footer-view>
     </>
   );
 };
