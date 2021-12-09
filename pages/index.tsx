@@ -1,5 +1,6 @@
 // @ts-nocheck
 import { NextPage, GetStaticProps } from 'next';
+import Head from 'next/head';
 interface Props {
   hero_spot_content: { attributes: HomeAttributes };
   three_grid_content: { attributes: HomeAttributesThreeGrid };
@@ -27,7 +28,13 @@ interface HomeAttributesSecondary {
 const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, secondary_home_content }) => {
   return (
     <>
+      <Head>
+        <script type="text/javascript" src="https://shaunmaharaj.github.io/ic-ent-shop-store/widgets.js"></script>
+      </Head>
       <p>Header Placement</p>
+      <unata-legacy-nav-view>
+        <div hidden>TODO</div>
+      </unata-legacy-nav-view>
       {/* <img src={attributes.hero_image} alt='hero image' /> */}
       <p>Content Placement</p>
       <div id="content">
@@ -37,7 +44,7 @@ const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, seco
               <a className="heroBanner_link" href="/shop/categories/27">
                 <video src={hero_spot_content.attributes.hero_image} alt='hero image' className="heroBanner_video" loop="true" autoplay="true" muted></video>
               </a>
-              <div class="overlay">
+              <div className="overlay">
                 <p>bring good food for you!</p>
               </div>
             </div>
@@ -77,7 +84,7 @@ const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, seco
   );
 };
 function createMarkup() {
-  return { __html: '<div><div><input type="text"/></div></div>' };
+  return { __html: '<unata-legacy-nav-view><div hidden>TODO</div></unata-legacy-nav-view>' };
 }
 export const getStaticProps: GetStaticProps = async () => {
   const hero_spot_content = await import(`../content/pages/${'home'}.md`);
