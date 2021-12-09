@@ -42,7 +42,7 @@ const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, seco
           <div>
             <div>
               <a className="heroBanner_link" href="/shop/categories/27">
-                <video src={hero_spot_content.attributes.hero_image} alt='hero image' className="heroBanner_video" loop="true" autoplay="true" muted></video>
+                <video src={hero_spot_content.attributes.hero_image} alt='hero image' className="heroBanner_video" loop={true} autoPlay={true} muted></video>
               </a>
               <div className="overlay">
                 <p>bring good food for you!</p>
@@ -76,10 +76,13 @@ const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, seco
             </div>
           </div>
         </div>
-        <unata-shaun>hehehe</unata-shaun>
-        <div dangerouslySetInnerHTML={createMarkup()} />;
+        {/* <unata-shaun>hehehe</unata-shaun> */}
+        {/* <div dangerouslySetInnerHTML={createMarkup()} />; */}
       </div >
       <p>Footer Placement</p>
+      <unata-legacy-footer-view>
+        <li hidden><a>TODO</a></li>
+      </unata-legacy-footer-view>
     </>
   );
 };
