@@ -1,0 +1,1 @@
+window._env_ = {apiPath: "/api/v2",frontendBucketConfig: "true",mode: "uat",variant: "master",version: "22edebf013cb866d8b91efaf634ad5866c44ebc8",webUrl: "https://deploy-preview-8--ic-ent-shop-store.netlify.app",}
