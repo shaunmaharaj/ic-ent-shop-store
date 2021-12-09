@@ -35,6 +35,9 @@ const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, seco
       <unata-legacy-nav-view>
         <div hidden>TODO</div>
       </unata-legacy-nav-view>
+      <unata-legacy-side-cart-view></unata-legacy-side-cart-view>
+      <unata-legacy-search-view></unata-legacy-search-view>
+      <unata-legacy-checkout-view></unata-legacy-checkout-view>
       {/* <img src={attributes.hero_image} alt='hero image' /> */}
       <p>Content Placement</p>
       <div id="content">
