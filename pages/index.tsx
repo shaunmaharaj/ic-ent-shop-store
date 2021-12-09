@@ -29,7 +29,7 @@ const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, seco
   return (
     <>
       <Head>
-        <script type="text/javascript" src="https://shaunmaharaj.github.io/ic-ent-shop-store/widgets.js"></script>
+        <script type="text/javascript" src="https://ic-ent-shop-store.netlify.app/widgets.js"></script>
       </Head>
       {/* Header Placement */}
       <unata-legacy-nav-view></unata-legacy-nav-view>
