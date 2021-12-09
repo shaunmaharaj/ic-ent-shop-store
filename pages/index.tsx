@@ -1,5 +1,6 @@
 // @ts-nocheck
 import { NextPage, GetStaticProps } from 'next';
+import Head from 'next/head';
 interface Props {
   hero_spot_content: { attributes: HomeAttributes };
   three_grid_content: { attributes: HomeAttributesThreeGrid };
@@ -27,22 +28,30 @@ interface HomeAttributesSecondary {
 const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, secondary_home_content }) => {
   return (
     <>
-      <p>Header Placement</p>
+      <Head>
+        <script type="text/javascript" src="https://shaunmaharaj.github.io/ic-ent-shop-store/widgets.js"></script>
+      </Head>
+      {/* Header Placement */}
+      <unata-legacy-nav-view></unata-legacy-nav-view>
+      <unata-legacy-side-cart-view></unata-legacy-side-cart-view>
+      <unata-legacy-search-view></unata-legacy-search-view>
+      <unata-legacy-checkout-view></unata-legacy-checkout-view>
       {/* <img src={attributes.hero_image} alt='hero image' /> */}
-      <p>Content Placement</p>
+      {/* Content Placement */}
       <div id="content">
         <div className="heroBanner">
           <div>
             <div>
-              <a className="heroBanner_link" href="/shop/categories/27">
-                <video src={hero_spot_content.attributes.hero_image} alt='hero image' className="heroBanner_video" loop="true" autoplay="true" muted></video>
+              <a className="heroBanner_link" href="https://uat-gar-platform-master-web.unataops.com/shop/featured/145/test-mlp">
+                <video src={hero_spot_content.attributes.hero_image} alt='hero image' className="heroBanner_video" loop={true} autoPlay={true} muted></video>
               </a>
-              <div class="overlay">
+              <div className="overlay">
                 <p>bring good food for you!</p>
               </div>
             </div>
           </div>
         </div>
+        <unata-legacy-product-collection collection-id="34"></unata-legacy-product-collection>
         <div className="homepageGrid" >
           <div>
             <h3>Delicious Holiday Favorites</h3>
@@ -60,24 +69,26 @@ const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, seco
             </div >
           </div >
         </div>
+        <unata-legacy-product-collection collection-id="44"></unata-legacy-product-collection>
         <div className="heroBanner">
           <div>
             <div>
-              <a className="heroBanner_link" href="/shop/categories/27">
+              <a className="heroBanner_link" href="https://uat-gar-platform-master-web.unataops.com/shop/categories/6">
                 <img src={secondary_home_content.attributes.secondary_hero_image} alt='hero image' className="heroBanner_image"></img>
               </a>
             </div>
           </div>
         </div>
-        <unata-shaun>hehehe</unata-shaun>
-        <div dangerouslySetInnerHTML={createMarkup()} />;
+        {/* <unata-shaun>hehehe</unata-shaun> */}
+        {/* <div dangerouslySetInnerHTML={createMarkup()} />; */}
       </div >
-      <p>Footer Placement</p>
+      {/* Footer Placement */}
+      <unata-legacy-footer-view></unata-legacy-footer-view>
     </>
   );
 };
 function createMarkup() {
-  return { __html: '<div><div><input type="text"/></div></div>' };
+  return { __html: '<unata-legacy-nav-view><div hidden>TODO</div></unata-legacy-nav-view>' };
 }
 export const getStaticProps: GetStaticProps = async () => {
   const hero_spot_content = await import(`../content/pages/${'home'}.md`);
