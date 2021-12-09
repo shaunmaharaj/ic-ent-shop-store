@@ -7,3 +7,15 @@ publish = ".next"
   
 [[plugins]]
 package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  from = "/api/v2/*"
+  to = "https://uat-gar-platform-master-web.unataops.com/api/v2/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/frontend-config.js"
+  to = "https://uat-gar-platform-master-web.unataops.com/frontend-config.js"
+  status = 200
+  force = true
