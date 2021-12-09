@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="596px" height="116px" viewBox="0 0 596 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>DesktopBlog</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="116" height="116"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DesktopBlog">
+            <g id="Rectangle-6">
+                <use fill="#F7F7F7" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#EEEEEE" stroke-width="1" x="0.5" y="0.5" width="115" height="115"></rect>
+            </g>
+            <g id="Skele" transform="translate(140.000000, 5.000000)" fill="#EEEEEE">
+                <rect id="Rectangle-25-Copy-3" x="0" y="20" width="180" height="17"></rect>
+                <rect id="Rectangle-25-Copy-4" x="0" y="0" width="100" height="17"></rect>
+                <rect id="Rectangle-25-Copy-5" x="0" y="49" width="401" height="17"></rect>
+                <rect id="Rectangle-25-Copy-6" x="0" y="69" width="441" height="17"></rect>
+                <rect id="Rectangle-25-Copy-7" x="0" y="89" width="267" height="17"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="224.5" height="114.5" viewBox="0, 0, 224.5, 114.5">
+  <g id="Layer_1">
+    <path d="M0,-0 L112.25,-0 L224.5,-0 L224.5,57.25 L224.5,114.5 L112.25,96.663 L0,114.5 L0,57.25 L0,-0 z" fill="%DEALSBUTTONCOLOR%"/>
+    <path d="M215.328,-0 L215.328,103.568 L112.25,86.448 L9.172,103.568 L9.172,-0 L215.328,-0 z" fill="#FFFFFF" fill-opacity="0.3"/>
+    <path d="M212.578,-0 L212.578,99.54 L112.25,83.086 L11.922,99.54 L11.922,-0 L212.578,-0 z" fill="%DEALSBUTTONCOLOR%"/>
+    <path d="M27.5,64.5 C24.877,64.5 22.75,62.373 22.75,59.75 C22.75,57.127 24.877,55 27.5,55 C30.123,55 32.25,57.127 32.25,59.75 C32.25,62.373 30.123,64.5 27.5,64.5 z" fill="#FFFFFF" fill-opacity="0.3"/>
+    <path d="M197.5,64.5 C194.877,64.5 192.75,62.373 192.75,59.75 C192.75,57.127 194.877,55 197.5,55 C200.123,55 202.25,57.127 202.25,59.75 C202.25,62.373 200.123,64.5 197.5,64.5 z" fill="#FFFFFF" fill-opacity="0.3"/>
+  </g>
+</svg>

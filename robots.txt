@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://uat-gar-platform-master-web.unataops.com/sitemap.xml
+Disallow: /api/

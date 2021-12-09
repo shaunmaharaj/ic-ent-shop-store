@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="931px" height="304px" viewBox="0 0 931 304" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>emt-blocks-img3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="931" height="304"></rect>
+    </defs>
+    <g id="Empty-State-Product" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-31.000000, -51.000000)">
+            <g id="emt-blocks-img3" transform="translate(31.000000, 51.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle" fill-opacity="0" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <rect id="Rectangle-25" fill="#EEEEEE" opacity="0.5" mask="url(#mask-2)" x="0.0563720177" y="0" width="303.887256" height="304" rx="2.2648855"></rect>
+                <path d="M334.488671,65.6986014 L932.22619,65.6986014" id="Line" stroke="#EEEEEE" stroke-width="0.754961832" stroke-linecap="square" mask="url(#mask-2)"></path>
+                <rect id="Rectangle-25-Copy-9" fill="#EEEEEE" mask="url(#mask-2)" x="334" y="131" width="110.307912" height="18.1307735" rx="2.2648855"></rect>
+                <rect id="Rectangle-25-Copy-10" fill="#EEEEEE" mask="url(#mask-2)" x="334" y="160" width="140.477598" height="18.1307735" rx="2.2648855"></rect>
+                <rect id="Rectangle-25-Copy-11" fill="#EEEEEE" mask="url(#mask-2)" x="334" y="78" width="297.908371" height="27.8682171" rx="2.2648855"></rect>
+                <rect id="Rectangle-25-Copy-12" fill="#EEEEEE" mask="url(#mask-2)" x="334" y="199" width="205.530982" height="33.9952003" rx="4.52977099"></rect>
+                <rect id="Rectangle-25-Copy-2" fill="#EEEEEE" mask="url(#mask-2)" x="334" y="20" width="380.892278" height="33.9952003" rx="2.2648855"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

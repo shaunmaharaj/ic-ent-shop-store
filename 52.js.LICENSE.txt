@@ -1,0 +1,289 @@
+/*!
+     *  getCubicBezierTransition(x1, y1, x2, y2) -> Function
+     *
+     *  Generates a transition easing function that is compatible
+     *  with WebKit's CSS transitions `-webkit-transition-timing-function`
+     *  CSS property.
+     *
+     *  The W3C has more information about
+     *  <a href="http://www.w3.org/TR/css3-transitions/#transition-timing-function_tag">
+     *  CSS3 transition timing functions</a>.
+     *
+     *  @param {number} x1
+     *  @param {number} y1
+     *  @param {number} x2
+     *  @param {number} y2
+     *  @return {function}
+     */
+
+/*!
+     * @param {Array.number} rawValues
+     * @param {string} prefix
+     *
+     * @return {Array.<string>}
+     */
+
+/*!
+     * @param {Object} easingObject
+     * @param {Object} tokenData
+     */
+
+/*!
+     * @param {Object} stateObject
+     *
+     * @return {Object} An Object of formatManifests that correspond to
+     * the string properties of stateObject
+     */
+
+/*!
+     * @param {Object} stateObject
+     * @param {Array.<string>} chunkNames
+     *
+     * @return {Array.<number>}
+     */
+
+/*!
+     * @param {Object} stateObject
+     * @param {Array.<string>} chunkNames
+     *
+     * @return {Object} The extracted value chunks.
+     */
+
+/*!
+     * @param {Object} stateObject
+     * @param {Object} formatManifests
+     */
+
+/*!
+     * @param {string} formatString
+     * @param {Array.<number>} rawValues
+     *
+     * @return {string}
+     */
+
+/*!
+     * @param {string} formattedString
+     *
+     * @return {string}
+     */
+
+/*!
+     * @param {string} hexString
+     *
+     * @return {string}
+     */
+
+/*!
+     * @param {string} rgbChunk
+     *
+     * @return {string}
+     */
+
+/*!
+     * @param {string} str
+     *
+     * @return {string}
+     */
+
+/*!
+     * @typedef {{
+     *   formatString: string
+     *   chunkNames: Array.<string>
+     * }}
+     */
+
+/*!
+     * Applies a filter to Tweenable instance.
+     * @param {Tweenable} tweenable The `Tweenable` instance to call the filter
+     * upon.
+     * @param {String} filterName The name of the filter to apply.
+     */
+
+/*!
+     * Calculates the interpolated tween values of an Object for a given
+     * timestamp.
+     * @param {Number} forPosition The position to compute the state for.
+     * @param {Object} currentState Current state properties.
+     * @param {Object} originalState: The original state properties the Object is
+     * tweening from.
+     * @param {Object} targetState: The destination state properties the Object
+     * is tweening to.
+     * @param {number} duration: The length of the tween in milliseconds.
+     * @param {number} timestamp: The UNIX epoch time at which the tween began.
+     * @param {Object} easing: This Object's keys must correspond to the keys in
+     * targetState.
+     */
+
+/*!
+     * Check for floating point values within rgb strings and rounds them.
+     *
+     * @param {string} formattedString
+     *
+     * @return {string}
+     */
+
+/*!
+     * Convert a base-16 number to base-10.
+     *
+     * @param {Number|String} hex The value to convert
+     *
+     * @returns {Number} The base-10 equivalent of `hex`.
+     */
+
+/*!
+     * Convert a hexadecimal string to an array with three items, one each for
+     * the red, blue, and green decimal values.
+     *
+     * @param {string} hex A hexadecimal string.
+     *
+     * @returns {Array.<number>} The converted Array of RGB values if `hex` is a
+     * valid string, or an Array of three 0's.
+     */
+
+/*!
+     * Convert all hex color values within a string to an rgb string.
+     *
+     * @param {Object} stateObject
+     *
+     * @return {Object} The modified obj
+     */
+
+/*!
+     * Copies each property from src onto target, but only if the property to
+     * copy to target is undefined.
+     * @param {Object} target Missing properties in this Object are filled in
+     * @param {Object} src
+     */
+
+/*!
+     * Creates a usable easing Object from either a string or another easing
+     * Object.  If `easing` is an Object, then this function clones it and fills
+     * in the missing properties with "linear".
+     * @param {Object} fromTweenParams
+     * @param {Object|string} easing
+     */
+
+/*!
+     * Filters are used for transforming the properties of a tween at various
+     * points in a Tweenable's life cycle.  See the README for more info on this.
+     */
+
+/*!
+     * Handles the update logic for one step of a tween.
+     * @param {Tweenable} tweenable
+     * @param {number} timestamp
+     * @param {number} duration
+     * @param {Object} currentState
+     * @param {Object} originalState
+     * @param {Object} targetState
+     * @param {Object} easing
+     * @param {Function(Object, *, number)} step
+     * @param {Function(Function,number)}} schedule
+     */
+
+/*!
+     * Handy shortcut for doing a for-in loop. This is not a "normal" each
+     * function, it is optimized for Shifty.  The iterator function only receives
+     * the property name, not the value.
+     * @param {Object} obj
+     * @param {Function(string)} fn
+     */
+
+/*!
+     * Note: It's the duty of the caller to convert the Array elements of the
+     * return value into numbers.  This is a performance optimization.
+     *
+     * @param {string} formattedString
+     *
+     * @return {Array.<string>|null}
+     */
+
+/*!
+     * Perform a shallow copy of Object properties.
+     * @param {Object} targetObject The object to copy into
+     * @param {Object} srcObject The object to copy from
+     * @return {Object} A reference to the augmented `targetObj` Object
+     */
+
+/*!
+     * Runs a filter operation on all chunks of a string that match a RegExp
+     *
+     * @param {RegExp} pattern
+     * @param {string} unfilteredString
+     * @param {function(string)} filter
+     *
+     * @return {string}
+     */
+
+/*!
+     * This object contains all of the tweens available to Shifty.  It is extendible - simply attach properties to the Tweenable.prototype.formula Object following the same format at linear.
+     *
+     * `pos` should be a normalized `number` (between 0 and 1).
+     */
+
+/*!
+     * Tweens a single property.
+     * @param {number} start The value that the tween started from.
+     * @param {number} end The value that the tween should end at.
+     * @param {Function} easingFunc The easing curve to apply to the tween.
+     * @param {number} position The normalized position (between 0.0 and 1.0) to
+     * calculate the midpoint of 'start' and 'end' against.
+     * @return {number} The tweened value.
+     */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <http://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * angular-ui-mask
+ * https://github.com/angular-ui/ui-mask
+ * Version: 1.8.7 - 2016-07-26T16:01:23.393Z
+ * License: MIT
+ */
+
+/*! Hammer.JS - v2.0.7 - 2016-04-22
+ * http://hammerjs.github.io/
+ *
+ * Copyright (c) 2016 Jorik Tangelder;
+ * Licensed under the MIT license */
+
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/**
+ * @license AngularJS v1.5.11
+ * (c) 2010-2017 Google, Inc. http://angularjs.org
+ * License: MIT
+ */
+
+/**
+ * @license AngularJS v1.5.8
+ * (c) 2010-2016 Google, Inc. http://angularjs.org
+ * License: MIT
+ */
+
+/**
+ * Angular Carousel - Mobile friendly touch carousel for AngularJS
+ * @version v1.0.2 - 2017-08-03
+ * @link http://revolunet.github.com/angular-carousel
+ * @author Julien Bouquillon <julien@revolunet.com>
+ * @license MIT License, http://www.opensource.org/licenses/MIT
+ */
+
+/**
+ * State-based routing for AngularJS
+ * @version v0.4.2
+ * @link http://angular-ui.github.com/
+ * @license MIT License, http://www.opensource.org/licenses/MIT
+ */
+
+/**
+ * oclazyload - Load modules on demand (lazy load) with angularJS
+ * @version v1.0.10
+ * @link https://github.com/ocombe/ocLazyLoad
+ * @license MIT
+ * @author Olivier Combe <olivier.combe@gmail.com>
+ */

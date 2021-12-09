@@ -1,0 +1,1 @@
+(window.webpackJsonpUnataWidgets=window.webpackJsonpUnataWidgets||[]).push([[30],{"3f2596686b3e9939e540":function(e,r,d){"use strict";d.r(r);var o=d("46f8f4ccfe1b73ca4d0c"),n=d.n(o);r.default=n.a.module("OrderAddOnNavControllerModule",[]).controller("OrderAddOnNavController",["$stateParams","mobileService",function(e,r){this.mobile=r,this.orderId=e.order.id}])}}]);

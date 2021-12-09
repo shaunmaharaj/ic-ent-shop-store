@@ -1,0 +1,1 @@
+(window.webpackJsonpUnataWidgets=window.webpackJsonpUnataWidgets||[]).push([[10],{a2333f48f381a01825bb:function(e,o,n){"use strict";n.r(o);var a=n("46f8f4ccfe1b73ca4d0c"),d=n.n(a);o.default=d.a.module("AddressBookControllerModule",[]).controller("AddressBookController",["$scope","config",function(e,o){e.enableExternalAddressValidation=o.enableExternalAddressValidation}])}}]);

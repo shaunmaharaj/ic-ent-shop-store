@@ -1,0 +1,1 @@
+(window.webpackJsonpUnataWidgets=window.webpackJsonpUnataWidgets||[]).push([[33],{"4497eb378a727756f439":function(e,o,i){"use strict";i.r(o);var a=i("46f8f4ccfe1b73ca4d0c"),n=i.n(a);o.default=n.a.module("ProfileGigyaControllerModule",[]).controller("ProfileGigyaController",["gigyaService",function(e){e.gigyaInit("profile")}])}}]);

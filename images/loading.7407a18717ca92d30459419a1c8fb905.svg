@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="175 150 250 250">
+  <style>
+  @keyframes stopwatch-hands { 
+    0% { stroke-dashoffset: 160px; } 
+    50% { stroke-dashoffset: 0px; }
+    100% { stroke-dashoffset: -160px; }
+  }
+  #stopwatch-hands {
+    animation: 2s linear infinite stopwatch-hands;
+  }
+  @keyframes stopwatch-button { 
+    90% { height: 22px; y: 210px } 
+    95% { height: 5px; y: 230px }
+    100% { height: 22px; y: 210px } 
+  }
+  #stopwatch-button {
+    animation: 2s linear infinite stopwatch-button;
+  }
+  </style>
+  <circle id="stopwatch-hands" fill="none" stroke="#454a4d" stroke-width="50" stroke-miterlimit="10" cx="300" cy="300" r="25" style="stroke-dashoffset: 100; stroke-dasharray: 160px, 160px;" transform="rotate(270 300 300)"></circle>
+  <circle fill="none" stroke="#454a4d" stroke-width="24" stroke-miterlimit="10" cx="300" cy="300" r="79.2"></circle>
+  <polygon fill="#454a4d" points="330.5,183 314.1,183.1 314,195 285,195 285,183.2 269.5,183 269.5,153 330.5,153 "></polygon>
+  <rect id="stopwatch-button" x="366" y="210" fill="#454a4d" width="32" height="22" transform="rotate(45 382 215)"></rect>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="387px" height="385px" viewBox="0 0 387 385" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>quickshop-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="quick-shop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="homepage-new" sketch:type="MSArtboardGroup" transform="translate(-120.000000, -834.000000)" fill="#EEEEEE">
+            <g id="content" sketch:type="MSLayerGroup" transform="translate(-28.000000, 183.000000)">
+                <g id="Mask" transform="translate(148.000000, 651.000000)" sketch:type="MSShapeGroup">
+                    <path d="M-187.990438,-14 C-190.757143,-14 -193,-11.7530015 -193,-9.00088579 L-193,394.000886 C-193,396.76182 -190.768216,399 -187.990438,399 L267.029622,399 L387,192.5 L269.54228,-9.67506573 C268.154577,-12.063661 264.797838,-14 262.020059,-14 L-187.990438,-14 Z" id="quickshop-arrow"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

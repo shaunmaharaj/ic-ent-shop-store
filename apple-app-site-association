@@ -1,0 +1,23 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "97AB7XC99B.com.instacart.enterprise",
+        "paths": [ "*", "/" ]
+      },
+      {
+        "appID": "97AB7XC99B.com.instacart.enterprise.gar.uat",
+        "paths": [ "*", "/" ]
+      },
+      {
+        "appID": "97AB7XC99B.com.unataops.gar",
+        "paths": [ "*", "/" ]
+      },
+      {
+        "appID": "97AB7XC99B.com.unataops.gar.uat",
+        "paths": [ "*", "/" ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="20px" viewBox="0 0 19 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>weekly-ad-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rewards-Account-Menu-">
+            <g id="weekly-ad">
+                <g>
+                    <g id="weekly-ad-icon" transform="translate(9.500000, 10.000000) rotate(-90.000000) translate(-9.500000, -10.000000) translate(-0.500000, 0.500000)">
+                        <polygon id="Rectangle-7" fill="#D64931" transform="translate(9.349087, 9.499023) scale(-1, 1) translate(-9.349087, -9.499023) " points="16.6888952 9.49902344 18.6680224 18.9702756 0.0301503578 18.9702756 0.0301510308 0.0277709961 18.6680231 0.0277709961"></polygon>
+                        <polygon id="Rectangle-8" stroke-opacity="0.4" stroke="#FFFFFF" transform="translate(11.177578, 9.546312) scale(-1, 1) translate(-11.177578, -9.546312) " points="17.5898367 9.54631207 19.3610183 16.3653514 2.99413835 16.3653514 2.99413835 2.72727273 19.3610183 2.72727273"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

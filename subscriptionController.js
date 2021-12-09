@@ -1,0 +1,1 @@
+(window.webpackJsonpUnataWidgets=window.webpackJsonpUnataWidgets||[]).push([[47],{eadf866c7729bca94aff:function(o,n,t){"use strict";t.r(n);var a=t("46f8f4ccfe1b73ca4d0c"),c=t.n(a);n.default=c.a.module("SubscriptionNgControllerModule",[]).controller("SubscriptionNgController",["$scope","auth",function(o,n){o.auth=n}])}}]);
