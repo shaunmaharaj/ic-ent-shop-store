@@ -42,7 +42,7 @@ const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, seco
         <div className="heroBanner">
           <div>
             <div>
-              <a className="heroBanner_link" href="/shop/categories/27">
+              <a className="heroBanner_link" href="https://uat-gar-platform-master-web.unataops.com/shop/featured/145/test-mlp">
                 <video src={hero_spot_content.attributes.hero_image} alt='hero image' className="heroBanner_video" loop={true} autoPlay={true} muted></video>
               </a>
               <div className="overlay">
@@ -51,6 +51,7 @@ const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, seco
             </div>
           </div>
         </div>
+        <unata-legacy-product-collection collection-id="34"></unata-legacy-product-collection>
         <div className="homepageGrid" >
           <div>
             <h3>Delicious Holiday Favorites</h3>
@@ -68,10 +69,11 @@ const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, seco
             </div >
           </div >
         </div>
+        <unata-legacy-product-collection collection-id="44"></unata-legacy-product-collection>
         <div className="heroBanner">
           <div>
             <div>
-              <a className="heroBanner_link" href="/shop/categories/27">
+              <a className="heroBanner_link" href="https://uat-gar-platform-master-web.unataops.com/shop/categories/6">
                 <img src={secondary_home_content.attributes.secondary_hero_image} alt='hero image' className="heroBanner_image"></img>
               </a>
             </div>
