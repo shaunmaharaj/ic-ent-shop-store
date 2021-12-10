@@ -25,10 +25,19 @@ interface HomeAttributesSecondary {
   secondary_hero_description: string;
   secondary_hero_image: string;
 }
+const style = `
+unata-legacy-nav-view, unata-legacy-side-cart-view, unata-legacy-search-view, unata-legacy-checkout-view {
+  display: block;
+}
+unata-legacy-nav-view {
+  height: 187px;
+}
+`
 const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, secondary_home_content }) => {
   return (
     <>
       <Head>
+        <style>{style}</style>
         <script type="text/javascript" src="https://shaunmaharaj.github.io/ic-ent-shop-store/widgets.js"></script>
       </Head>
       {/* Header Placement */}
