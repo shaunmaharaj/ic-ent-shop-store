@@ -1,5 +1,5 @@
 ---
-title: Delicious Favorites
+title: Delicious Favorites to eat
 description1: Holiday Appetizers
 image1: img/5239028-hp-tile-navs-holiday-appetizers.jpeg
 description2: Holiday Sides
