@@ -55,7 +55,7 @@ const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, seco
                 <video src={hero_spot_content.attributes.hero_image} alt='hero image' className="heroBanner_video" loop={true} autoPlay={true} muted></video>
               </a>
               <div className="overlay">
-                <p>bring good food for you!</p>
+                <p>{hero_spot_content.attributes.hero_description}</p>
               </div>
             </div>
           </div>
@@ -63,18 +63,18 @@ const HomePage: NextPage<Props> = ({ hero_spot_content, three_grid_content, seco
         <unata-legacy-product-collection collection-id="34"></unata-legacy-product-collection>
         <div className="homepageGrid" >
           <div>
-            <h3>Delicious Holiday Favorites</h3>
+            <h3>{three_grid_content.attributes.title}</h3>
             <div>
               <img src={three_grid_content.attributes.image1} alt='hero image' className="heroBanners_image"></img>
-              <span className="subtitle">Holiday Appetizers</span>
+              <span className="subtitle">{three_grid_content.attributes.description1}</span>
             </div>
             <div>
               <img src={three_grid_content.attributes.image2} alt='hero image' className="heroBanners_image"></img>
-              <span className="subtitle">Holiday Sides</span>
+              <span className="subtitle">{three_grid_content.attributes.description2}</span>
             </div>
             <div>
               <img src={three_grid_content.attributes.image3} alt='hero image' className="heroBanners_image"></img>
-              <span className="subtitle">Desserts</span>
+              <span className="subtitle">{three_grid_content.attributes.description3}</span>
             </div >
           </div >
         </div>
